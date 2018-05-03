@@ -1,0 +1,1 @@
+export const StackList = 'house/STACK_LIST'

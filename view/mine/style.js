@@ -1,0 +1,95 @@
+import { StyleSheet } from 'react-native'
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    position:"relative",
+    backgroundColor:'#ececec'
+  },
+  wrap:{
+    justifyContent:'flex-end',
+    alignItems:'center',
+    height:1500,
+    width:'100%',
+    position:'absolute',
+    bottom:-200,
+    paddingBottom:50,
+    // opacity:0.5
+  },
+  setting:{
+    position:'absolute',
+    right:20,
+    bottom:140,
+    height:25,
+    width:25,
+    zIndex:1
+  },
+  backgroundImage:{
+    width:'100%',
+    height:'100%',
+    position:'absolute'
+  },
+  signin:{
+    height:60,
+    width:60
+  },
+  signintxt:{
+    fontSize:14,
+    color:'#fff',
+    marginTop:10
+  },
+  progress:{
+    width:'100%',
+    height:65,
+    borderTopWidth:3,
+    borderTopColor:'#9e9e9e',
+    position:'absolute',
+    top:200,
+    flexDirection:'row',
+    backgroundColor:'#fff'
+  },
+  cover:{
+    width:'100%',
+    height:1500,
+    opacity:0.2,
+    backgroundColor:'#c4b5ca',
+    position:'absolute'
+  },
+  proitem:{
+    justifyContent:'center',
+    alignItems:'center',
+    width:'20%',
+  },
+  proimg:{
+    width:25,
+    height:25,
+  },
+  protxt:{
+    fontSize:12,
+    marginTop:10,
+    fontWeight:'500'
+  },
+  funcwrap:{
+    flexDirection:'row',
+    flexWrap:'wrap',
+    justifyContent:'space-between',
+    position:'absolute',
+    top:265
+  },
+  funcitem:{
+    marginTop:1,
+    justifyContent:'center',
+    alignItems:'center',
+    backgroundColor:'#fff',
+  },
+  funcimg:{
+    width:25,
+    height:25
+  },
+  functxt:{
+    fontSize:12,
+    marginTop:20,
+    fontWeight:'400'
+  }
+})
+

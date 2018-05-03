@@ -1,0 +1,84 @@
+import { StyleSheet } from 'react-native'
+
+export default StyleSheet.create({
+    item: {
+        width:380,
+        height:120,
+        alignSelf:'center',
+        marginTop:10,
+        backgroundColor:'#fff',
+        shadowColor:'rgba(0,0,0,0.5)',
+        shadowOffset:{ width: 0, height: 1 },
+        shadowOpacity:0.5,
+        shadowRadius:4,
+        position:'relative',
+        flexDirection:'row',
+        alignItems:'center',
+    },
+    itemimg:{
+      height:100,
+      width:100,
+      marginLeft:15,
+      marginRight:10, 
+      borderWidth:1,
+      borderColor:'#f0f0f0'
+    },
+    itemdetail:{
+      height:95,
+      width:220
+    },
+    title:{
+      fontSize:12
+    },
+    info:{
+      flexDirection:'row',
+      alignItems:'center',
+      marginTop:2
+    },
+    self:{
+      backgroundColor:'#ff666b',
+      height:15,
+      width:30,
+      borderRadius:3,
+      justifyContent:'center',
+      alignItems:'center'
+    },
+    selftxt:{
+      color:'#fff',
+      fontSize:10
+    },
+    numAndoldprice:{
+      fontSize:10,
+      color:'#9e9e9e',
+      marginLeft:5
+    },
+    newrprice:{
+      color:'#ff666b',
+      fontSize:14,
+      marginTop:30,
+      marginLeft:5
+    },
+    tocar:{
+      position:'absolute',
+      right:15,
+      bottom:15,
+      height:15,
+      width:15
+    },
+    totop:{
+      justifyContent:'center',
+      alignItems:'center',
+      position:'absolute',
+      height:40,
+      width:40,
+      backgroundColor:'rgba(0,0,0,.5)',
+      borderRadius:20,
+      bottom:60,
+      right:10
+    },
+    totoplogo:{
+      width:15,
+      height:15
+    }
+})
+

@@ -1,0 +1,16 @@
+
+{
+   "expo": {
+	    "name": "Your App Name",
+	    "icon": "./resource/czym.png",
+	    "version": "1.0.0",
+	    "slug": "your-app-slug",
+	    "sdkVersion": "26.0.0",
+	    "ios": {
+	      "bundleIdentifier": "com.jz.lizi"
+	    },
+	    "android": {
+	      "package": "com.jz.lizi"
+	    }
+	}
+}	
